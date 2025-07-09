@@ -11,7 +11,6 @@ Human detection by computer vision, distance and angle estimation
 
 - python main.py
 
+## Dataset
 
-
-https://eurocity-dataset.tudelft.nl/
-https://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html
+https://www.kaggle.com/datasets/fareselmenshawii/human-dataset?resource=download
