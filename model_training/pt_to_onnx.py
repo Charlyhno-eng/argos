@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO("human_detection.pt")
 
 # Export the model to ONNX format
-model.export(format="onnx", imgsz=(416, 416))
+model.export(format="onnx", imgsz=(768, 768))

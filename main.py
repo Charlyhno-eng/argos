@@ -2,7 +2,7 @@ import cv2
 import onnxruntime as onnxr
 import numpy as np
 
-IMAGE_SIZE = 416
+IMAGE_SIZE = 768
 ONNX_PATH = "human_detection.onnx"
 PERSON_CLASS_ID = 0
 
@@ -74,7 +74,7 @@ def extract_box(frame, detection, x_scale, y_scale):
 
 def display_camera_with_detection():
     cap = cv2.VideoCapture(0)
-    conf_thres, iou_thres = 0.4, 0.5
+    conf_thres, iou_thres = 0.4, 0.6
     x_scale, y_scale = None, None
 
     while True:
